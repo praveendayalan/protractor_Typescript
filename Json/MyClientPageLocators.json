@@ -1,0 +1,164 @@
+{
+    "locators":{
+        "Myclientmenu":{
+            "Xpath":"//*[@id='foldable-left-nav-bar-menu'][contains(text(),'My Clients')]"
+        },
+        "MyClienttxt": {
+            "Xpath":"//*[@id='app-main']/div/section/div[1]/div[1]/div/div[1]/label"
+        },
+        "AddClient": {
+            "Xpath":"//*[@id='addNewPatient']"
+        },
+        "AddPatient":{
+            "Xpath":"//*[@id='patientID']"
+        },
+        "SendRequest":{
+            "Xpath":"//*[@id='addNewPatient'][contains(text(),'Send Request')]"
+        },
+        "PatientID":{
+            "ID": "5013"
+        },
+        "EditIcon": {
+            "Xpath":"//*[@id='tr-2374']/td[8]/div/button[2]"
+        },
+        "DeleteIcon":{
+            "Xpath":"//*[@id='tr-5013']/td[8]/div/button[1]"
+        },
+        "ViewIcon":{
+            "Xpath":"//*[@id='tr-2375']/td[8]/div/button[3]"
+        },
+        "ChangePatientName":{
+            "Xpath":"//*[@id='patientName']"
+        },
+        "ChangePhoneNumber":{
+            "Xpath":"//*[@id='patientPhone']"
+        },
+        "SaveButton":{
+            "Xpath":"//*[@id='EditPatientBtn']"
+        },
+        "EditPatientInfo":{
+            "PatientData":"AutomationTest"
+        },
+        "EditPhoneInfo":{
+            "PhoneData":"360360"
+        },
+        "ErrorMsg":{
+            "Msg": "//*[@id='error-msg'][contains(text(),'connection already sent')]"
+        },
+        "CancelButton":{
+            "Xpath":"//*[@id='addNewPatient'][contains(text(),'Cancel')]"
+        },
+        "TerminateButton":{
+            "Xpath":"//*[@id='DeletePatientBtn']"
+        },
+        "DashBoardId":{
+            "Xpath":"//*[@id='patients-view-dash']/div[1]/div[1]/div[2]/p[2]"
+        },
+        "LevelInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/header/div/div/div[1]/div[2]/h4[2]/span[2]"
+        },
+        "StatusInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/header/div/div/div[2]/div/h4[2]/span[2]"
+        },
+        "XPInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/div/div/div[1]/div[2]/h4[2]/span"
+        },
+        "PositionInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/div/div/div[2]/div[2]/h4[2]/span"
+        },
+        "CompletedQuestInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/div/div/div[3]/div[2]/h4[2]/span"
+        },
+        "ActiveQuestInfo":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-quest-and-usage-over-time/div/div[1]/div/div/div/div[4]/div[2]/h4[2]/span"
+        },
+        "AnnouncementButton":{
+            "Xpath":"//*[@id='patient-view-notifications-nav-button'][contains(text(),'Announcements')]"
+        },
+        "NewAnnoucnementButton":{
+            "Xpath":"//*[@id='addNewPatient']"
+        },
+        "Subject":{
+            "Xpath":"//*[@id='exampleInputSubject']"
+        },
+        "Message":{
+            "Xpath":"//*[@id='textarea1']"
+        },
+        "QuestionCheckBox":{
+            "Xpath":"//*[@id='optionsRadios1']"
+        },
+        "DoneButton":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-announcement/app-add-announcement/div[1]/div/div[2]/div[5]/div[2]/button"
+        },
+        "RandomMessage":{
+            "Message":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec."
+        },
+        "SubjectMessage":{
+            "AnnouncementMessage":"Test Announcement for Test Automation"
+        },
+        "AppointmentButton":{
+            "Appointment":"//*[@id='patient-view-notifications-nav-button'][contains(text(),'Appointments')]"
+        },
+        "NewAppointmentButton":{
+            "NewAppointment":"//*[@id='app-main']/div[2]/section/app-appointment/div/div[2]/div/ng-fullcalendar/div[1]/div[2]/button"
+        },
+        "AppointmentTitle":{
+            "Xpath":"//*[@id='title_appointment']"
+        },
+        "AppointmentLocation":{
+            "Xpath":"//*[@id='location']"
+        },
+        "WithWhom":{
+            "Xpath":"//*[@id='withwhom']"
+        },
+        "StartTimeDropDown":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-add-appointment/div[1]/div[4]/form/div[5]/div[1]/div/button"
+        },
+        "EndTimeDropDown":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-add-appointment/div[1]/div[4]/form/div[5]/div[2]/div/button"
+        },
+        "StartTime":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-appointment/app-add-appointment/div[1]/div[4]/form/div[5]/div[1]/div/ul/li[1]/a"
+        },
+        "EndTime":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-appointment/app-add-appointment/div[1]/div[4]/form/div[5]/div[2]/div/ul/li[2]/a"
+        },
+        "Category":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-appointment/app-add-appointment/div[1]/div[4]/form/div[8]/div/button[1]"
+        },
+        "AppointmentDoneButton":{
+            "Xpath":"//*[@id='AddPatientBtn']"
+        },
+        "AppointmentText":{
+            "Xpath":"//*[@id='textarea1']"
+        },
+        "AppointmentTitleInfo":{
+            "TitleInfo":"Test Appointment"
+        },
+        "AppointmentLocationInfo":{
+            "LocationInfo":"Test Location"
+        },
+        "WithWhomInfo":{
+            "Info":"Test Doctor"
+        },
+        "AppointmentEdit":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-appointment/div/div[1]/div/div/div[2]/div/div/div/div/div[2]/div/div[2]/img"
+        },
+        "ChangeStartTime":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-edit-appointment/div[1]/div[4]/form/div[5]/div[1]/div/ul/li[3]/a"
+        },
+        "ChangeEndTime":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-edit-appointment/div[1]/div[4]/form/div[5]/div[2]/div/ul/li[4]/a"
+        },
+        "ChangeCategory":{
+            "Xpath":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-edit-appointment/div[1]/div[4]/form/div[8]/div/button[2]"
+        },
+        "EditDoneBtn":{
+            "EditAppointmentbtn":"//html/body/app-root/app-secure/app-patient-dashboard/div/div[2]/section/app-appointment/app-edit-appointment/div[1]/div[4]/form/div[9]/button[2]"
+        },
+        "DeleteAppointment":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/app-appointment/app-edit-appointment/div[1]/div[4]/form/div[9]/div[1]/button"
+        }
+    
+    }
+}

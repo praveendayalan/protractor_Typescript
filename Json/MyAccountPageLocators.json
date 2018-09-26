@@ -1,0 +1,34 @@
+{
+    "locators":{
+        "UserNameText": {
+            "Xpath": "//*[@id='userName']"
+        },
+        "EmailText":{
+            "Xpath":"//*[@id='email']"
+        },
+        "UserNameData": {
+          "UsrData": "praveen"
+        },
+        "EmailData":{
+            "emaildata":"praveenk@360medlink.com"
+        },
+        "TitleData":{
+            "Titledata":"Dr."
+        },
+        "AffiliationData":{
+            "Affiliationdata":"MR"
+        },
+        "Title":{
+            "Xpath": "//*[@id='title']"
+        },
+        "Affiliation":{
+            "Xpath": "//*[@id='affiliation']"
+        },
+        "SaveBtn":{
+            "Xpath":"//html/body/app-root/app-secure/app-account/div/div/section/div/div[1]/div[2]/button"
+        },
+        "Successmsg":{
+            "id": "success-msg"
+        }
+    }
+}

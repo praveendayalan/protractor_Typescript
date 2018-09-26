@@ -1,0 +1,49 @@
+{
+    "locators":{
+        "AnnouncementMenu":{
+            "Xpath":"//*[@id='foldable-left-nav-bar-menu'][contains(text(),'Announcements')]"
+        },
+        "AllClients":{
+            "Xpath":"//*[@id='selectAll']"
+        },
+        "Subject":{
+            "Xpath":"//*[@id='exampleInputSubject']"
+        },
+        "Message":{
+            "Xpath":"//*[@id='textarea1']"
+        },
+        "QuestionCheckBox":{
+            "Xpath":"//*[@id='optionsRadios1']"
+        },
+        "DoneButton":{
+            "Xpath":"//html/body/app-root/app-secure/app-annoucement/div/div/section/app-add-announcement/div[1]/div/div[2]/div[6]/div[2]/button"
+        },
+        "RandomMessage":{
+            "Message":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec."
+        },
+        "SubjectMessage":{
+            "AnnouncementMessage":"Test Announcement for Test Automation"
+        },
+        "ViewAnnouncement":{
+            "Xpath":"//*[@id='tr-32']/td[7]/div"
+        },
+        "GetMessage":{
+            "Xpath":"//*[@id='app-main']/div[2]/section/div[1]/div[1]/label"
+        },
+        "TitleMessage":{
+            "Msg":"Test Announcement for Test Automation, 12 September 2018"
+        },
+        "ForwardAnnouncementButton":{
+            "Xpath":"//*[@id='addNewPatient']"
+        },
+        "ForwardDoneButton":{
+            "Xpath":"//html/body/app-root/app-secure/app-detail-announcement/div/div[2]/app-forward-announcement/div[1]/div/div[2]/div[6]/div[2]/button"
+        },
+        "ClientName": {
+            "Xpath":"//*[@id='app-main']/div[2]/app-forward-announcement/div[1]/div/div[2]/div[1]/ng-select/div/div/div[2]/input"
+        },
+        "ChooseClientName":{
+            "Xpath":"//html/body/app-root/app-secure/app-detail-announcement/div/div[2]/app-forward-announcement/div[1]/div/div[2]/div[1]/ng-select/ng-dropdown-panel/div/div[2]/div[2]"
+        }
+    }
+}

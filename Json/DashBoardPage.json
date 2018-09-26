@@ -1,0 +1,31 @@
+{
+    "locators":{
+        "DashBoardMenu":{
+            "Xpath": "//*[@id='foldable-left-nav-bar-menu'][contains(text(),'Dashboard')]"
+        },
+        "OverviewText":{
+            "Xpath": "//*[@id='app-main']/div/section/app-engagement-overview/div/h3"
+        },
+        "InvitationStatus":{
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[1]/div[1]"
+        },
+        "AcceptedClients":{
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[1]/div[3]/span[1]"
+        },
+        "PendingClients":{
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[1]/div[4]/span[1]"
+        },
+        "SignIn": {
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[2]/div[1]"
+        },
+        "SignedIn": {
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[2]/div[3]/span[1]"
+        },
+        "NotSignedIn":{
+            "Xpath":"//*[@id='app-main']/div/section/app-engagement-overview/div/div[1]/div/div/div/div[2]/div[4]/span[1]"
+        },
+        "Alert":{
+            "Xpath": "//*[@id='app-main']/div/section/app-alert-component/div/div/div/span[2]"
+        }
+    }
+}

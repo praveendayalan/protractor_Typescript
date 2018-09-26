@@ -1,0 +1,26 @@
+{
+    "URL": "https://hcpapp.red.tavierx.net/",
+    "locators": {
+        "userName":{
+            "id": "userName"
+        },
+        "Password":{
+            "id": "password"
+        },
+        "Signin":{
+            "id": "SignIn"
+        },
+        "UserNameData": {
+          "UsrData": "praveen"
+        },
+        "PasswordData": {
+            "pwdData": "12345"
+        },
+        "LandingPage": {
+            "Xpath": "//*[@id='my-account-container']/div[1]/div[1]/h3"
+        },
+        "LandingpageData": {
+            "LandData": "My Account"
+        }
+    }
+}

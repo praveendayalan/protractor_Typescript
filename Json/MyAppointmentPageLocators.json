@@ -1,0 +1,70 @@
+{
+    "locators":{
+        "MyAppointmentBtn":{
+            "Xpath":"//*[@id='foldable-left-nav-bar-menu'][contains(text(),'My Appointments')]"
+        },
+        "NewAppointment":{
+            "Xpath":"//*[@id='app-main']/div/section/div/div[2]/div/ng-fullcalendar/div[1]/div[2]/button"
+        },
+        "EnterClient":{
+            "Xpath":"//*[@id='app-main']/div/section/app-add-appointment/div[1]/div[4]/form/div[1]/ng-select/div/div/div[2]/input"
+        },
+        "SelectClient":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[1]/ng-select/ng-dropdown-panel/div/div[2]/div[1]"
+        },
+        "AppointmentTitle":{
+            "Xpath":"//*[@id='title_appointment']"
+        },
+        "AppointmentLocation":{
+            "Xpath":"//*[@id='location']"
+        },
+        "WithWhom":{
+            "Xpath":"//*[@id='withwhom']"
+        },
+        "StartTimeDropDown":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[6]/div[1]/div/button"
+        },
+        "EndTimeDropDown":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[6]/div[2]/div/button"
+        },
+        "StartTime":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[6]/div[1]/div/ul/li[3]/a"
+        },
+        "EndTime":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[6]/div[2]/div/ul/li[1]/a"
+        },
+        "Category":{
+            "Xpath":"html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[9]/div/button[2]"
+        },
+        "AppointmentDoneButton":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-add-appointment/div[1]/div[4]/form/div[10]/button[2]"
+        },
+        "AppointmentText":{
+            "Xpath":"//*[@id='textarea1']"
+        },
+        "AppointmentTitleInfo":{
+            "TitleInfo":"Test Appointment"
+        },
+        "AppointmentLocationInfo":{
+            "LocationInfo":"Test Location Canada"
+        },
+        "WithWhomInfo":{
+            "Info":"Test Doctor Automation"
+        },
+        "RandomMessage":{
+            "Message":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec."
+        },
+        "AppointmentEditIcon":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/div/div[1]/div/div/div[2]/div/div[3]/div/div/div[2]/div/div[2]/img"
+        },
+        "ChangeSelectCategory":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-edit-appointment/div[1]/div[4]/form/div[9]/div/button[1]"
+        },
+        "EditDoneButton":{
+            "Xpath":"html/body/app-root/app-secure/app-appointment/div/div/section/app-edit-appointment/div[1]/div[4]/form/div[10]/div[2]/button[2]"
+        },
+        "DeleteAppointmentButton":{
+            "Xpath":"//html/body/app-root/app-secure/app-appointment/div/div/section/app-edit-appointment/div[1]/div[4]/form/div[10]/div[1]/button"
+        }
+    }
+}
