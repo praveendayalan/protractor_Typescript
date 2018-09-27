@@ -1,4 +1,9 @@
 # protractor_Typescript
 This is just a part of my Work project. 
-I have added Node modules in the git, just to make the script work easily
-Generally, I follow best practices by ignoring node modules.
+
+HOW TO MAKE THE PROJECT WORK:
+
+1. Clone the project. 
+2. Navigate to the directory in the npm command prompt 
+3. Use the command npm install
+4. Run the project by using the command npm run Start
